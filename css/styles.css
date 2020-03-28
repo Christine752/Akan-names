@@ -3,6 +3,16 @@ h1 {
   font-family: Arial;
 }
 
+.jumboHeaderImg {
+  background-image: url("/image/ghana-image.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .ghana-image {
   background-image: url("/image/ghana-image.jpg");
   background-color: #cccccc;
