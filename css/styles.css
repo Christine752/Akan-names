@@ -4,11 +4,13 @@ body {
 }
 
 .jumbotron {
-  background: url(/image/ghana-image.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  background-image: url(/image/ghana-image.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  -o-background-size: cover;
+  position: relative;
 }
 
 .ghana-text {
