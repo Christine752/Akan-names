@@ -9,12 +9,3 @@ h1 {
   background-attachment: fixed;
   background-position: center;
 }
-
-.ghana-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-}
