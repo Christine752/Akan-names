@@ -3,7 +3,7 @@ h1 {
   font-family: Arial;
 }
 
-.jumboHeaderImg {
+.jumbotron {
   background-image: url("/image/ghana-image.jpg");
   background-color: #cccccc;
   height: 500px;
