@@ -9,3 +9,9 @@ h1 {
   background-attachment: fixed;
   background-position: center;
 }
+
+.important {
+  font-family: Arial;
+  font-size: large;
+  color: black;
+}
