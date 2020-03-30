@@ -71,6 +71,120 @@
         <i>(that you will input in the form below)</i> to calculate the exact
         day you were born in, and then give you your Akan name!
       </p>
+      <div class="important">
+        <h2 class="important">Fun Facts</h2>
+      </div>
+      <p>
+        Did you know that the popular Akan names listed above all have meanings?
+        Here is a list of the names from both genders and their accompanying
+        appelations. You can also read more on this topic through
+        <a href="https://yen.com.gh/115080-akan-names-meanings.html"
+          >This Link.</a
+        >
+      </p>
+      <div class="card">
+        <div class="card-body">
+          <ol>
+            <li><strong>Akosua-Kwasi</strong></li>
+            <p>
+              Born on a Sunday, they are believed to be naturally agile. They
+              are quick, fast and highly-skilled in performing tasks, hence
+              their appellation is "Agility".
+            </p>
+            <li><strong>Adwoa-Kwadwo</strong></li>
+            <p>
+              Born on a Monday, they like peace and avoid trouble at all costs.
+              Their appellation means "Peaceful"
+            </p>
+            <li><strong>Abenaa-Kwabena</strong></li>
+            <p>
+              Born on a Tuesday, they are always friendly hence their
+              appellation means "Friendliness".
+            </p>
+            <li><strong>Akua-Kwau</strong></li>
+            <p>
+              Born on a Wednesday, they are mostly associated with stubbornness,
+              and their appellation means "Evil".
+            </p>
+            <li><strong>Yaa-Yaw</strong></li>
+            <p>
+              Born on a Thursday, they never care about what will result from a
+              certain situation. Their appellation is "Bravery".
+            </p>
+            <li><strong>Afua-Kofi</strong></li>
+            <p>
+              Born on a Friday, They are known to be wanderers and are unable to
+              stay in one place for long. They can travel to far places, start
+              their own families there and never bother to check on those family
+              members they left behind.
+            </p>
+            <li><strong>Ama-Kwame</strong></li>
+            <p>
+              Born on a Saturday, The males are believed to be always set for
+              combat hence “Ready for combat” becomes his first appellation
+              while “Snakebite herbalist” becomes his second appellation.
+              Females are creators hence one of their appellation is “creation”
+              while the other is “Grace”.
+            </p>
+          </ol>
+        </div>
+      </div>
+      <form>
+        <div id="details">
+          <div class="js">
+            <h2><strong>Let's Try it out.</strong></h2>
+            <h3>Enter your birthaday details in the spaces below:</h3>
+            <form method="POST" onsubmit="return true" class="form">
+              <label for="date">Date</label>
+              <input
+                type="number"
+                name="date"
+                id="day"
+                maxlength="2"
+                placeholder="day in figures"
+                required
+              />
+              <label for="month">Month</label>
+              <input
+                type="number"
+                name="month"
+                id="month"
+                maxlength="2"
+                placeholder="month in figures"
+                required
+              />
+              <label for="year">Year</label>
+              <input
+                type="number"
+                name="year"
+                id="year"
+                maxlength="4"
+                placeholder="year in figures"
+                required
+              />
+              <h4>Gender</h4>
+              <input
+                type="radio"
+                name="gender"
+                id="gender"
+                value="male"
+                unchecked
+              />
+              Male<br />
+              <input
+                type="radio"
+                name="gender"
+                id="gender"
+                value="female"
+                unchecked
+              />
+              Female<br />
+              <input type="submit" value="submit" onclick="akanNames()" />
+            </form>
+            <p id="results">Your Akan Name is:</p>
+          </div>
+        </div>
+      </form>
     </div>
   </body>
 </html>
