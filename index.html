@@ -8,13 +8,12 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
-        <div id="image">
-          <div class="ghana-text">
-            <h1 class="ghana-text">AKAN NAMES</h1>
-          </div>
+      <div id="image">
+        <div class="ghana-text">
+          <h1 class="ghana-text">AKAN NAMES</h1>
         </div>
       </div>
+      <br />
       <div class="important">
         <h2 class="important"><strong>INTRODUCTION</strong></h2>
       </div>
@@ -136,7 +135,7 @@
         <div class="js">
           <h2><strong>Let's Try it out.</strong></h2>
           <h3>Enter your birthday details in the spaces below:</h3>
-          <form method="POST" onsubmit="return true" class="form">
+          <form method="POST" onsubmit="return false" class="form">
             <label for="date">Date</label>
             <input
               type="number"
@@ -178,7 +177,7 @@
               name="gender"
               id="gender"
               value="female"
-              unchecked
+              checked
             />
             Female<br />
             <input type="Submit" value="Submit" onclick="akanNames()" />
