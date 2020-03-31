@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url(/image/ghana-image.jpg);
+  background-image: url(/image/ghana-image-2.jpg);
   background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -14,10 +14,9 @@ body {
 
 .ghana-text {
   text-align: center;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  transform: translate(50px, 50px);
+  position: center;
+  font-family: serif;
+  font-style: normal;
   color: #000000;
 }
 
