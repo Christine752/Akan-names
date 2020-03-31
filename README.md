@@ -1,35 +1,33 @@
-# {Application Name}
+# Akan Names
 
-#### {Brief description of application}, {Date of current version}
+#### This application is meant to calculate the day of the week in which you were born and output your Akan name that corresponds with that day of the week. Latest version updated on
 
-#### By **{List of contributors}**
+31st March 2020.
+
+#### By Christine Mugambi.
 
 ## Description
 
-{This is a detailed description of your application, including its purpose and usage. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
-
-## Setup/Installation Requirements
-
-- This is a great place
-- to list setup instructions
-- in a simple
-- easy-to-understand
-- format
-  {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+This application is on Akan names that are derived from the Ghanian culture; amongst the people of Ghana in West Africa. It gives more information on the names, then provides a form in which the user enters their personal information. Then the application will use the input to calculate the day of the week in which the user was born, and output their Akan name that corresponds with that day of the week.
+You can access the application through this link: https://christine752.github.io/Akan-names/ . Be sure to try it out!
 
 ## Known Bugs
 
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+There are no issues or bugs in this application that can affect its running. Hence the application runs smoothly and effectively.
 
 ## Technologies Used
 
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+1. HTML
+2. CSS
+3. Bootstrap
+4. JavaScript
 
 ## Support and contact details
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}
+For any comments, queries, or issues, kindly reach ou to me through my gmail or yahoo;
+njeri.mugamby@gmail.com and njeri.mugamby21@yahoo.com
 
 ### License
 
-_{Determine the license under which this application can be used. See below for more details on licensing.}_
-Copyright (c) {year} **{List of contributors or company name}**
+MIT License.
+Copyright (c) 2020 Christine Mugambi.
