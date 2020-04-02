@@ -5,8 +5,8 @@ body {
 .image {
   font-size: 0;
   text-align: center;
-  width: 200px; /* Container's dimensions */
-  height: 150px;
+  width: 700px; /* Container's dimensions */
+  height: 500px;
 }
 img {
   display: inline-block;
@@ -17,7 +17,7 @@ img {
 .trick {
   display: inline-block;
   vertical-align: middle;
-  height: 150px;
+  height: 500px;
 }
 
 .ghana-text {
