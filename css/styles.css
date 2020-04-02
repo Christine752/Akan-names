@@ -2,14 +2,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#image {
-  width: 500px;
-  height: 500px;
-  background-image: url(/image/ghana-image.jpg);
-  background-color: #cccccc;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.image {
+  font-size: 0;
+  text-align: center;
+  width: 200px; /* Container's dimensions */
+  height: 150px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
 }
 
 .ghana-text {
