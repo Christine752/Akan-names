@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.image-fluid {
+.img-fluid {
   background-image: url(/image/ghana-image.jpg);
   background-color: #cccccc;
   background-size: cover;
