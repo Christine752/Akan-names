@@ -17,6 +17,7 @@ img {
 .trick {
   display: inline-block;
   vertical-align: middle;
+  width: 852px;
   height: 480px;
 }
 
