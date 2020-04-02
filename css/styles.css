@@ -5,7 +5,8 @@ body {
 #image {
   background-image: url(/image/ghana-image.jpg);
   background-color: #cccccc;
-  height: 500px;
+  height: 600px;
+  width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,9 +16,8 @@ body {
 .ghana-text {
   text-align: center;
   position: center;
-  font-family: serif;
-  font-style: normal;
-  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff0000;
 }
 
 .important {
