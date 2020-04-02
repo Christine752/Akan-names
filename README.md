@@ -2,7 +2,7 @@
 
 #### This application is meant to calculate the day of the week in which you were born and output your Akan name that corresponds with that day of the week. Latest version updated on
 
-31st March 2020.
+2nd April 2020.
 
 #### By Christine Mugambi.
 
