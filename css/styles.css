@@ -3,21 +3,11 @@ body {
 }
 
 .image {
-  font-size: 0;
-  text-align: center;
-  width: 852px; /* Container's dimensions */
-  height: 480px;
-}
-img {
-  display: inline-block;
-  vertical-align: middle;
-  max-height: 100%;
-  max-width: 100%;
-}
-.trick {
-  display: inline-block;
-  vertical-align: middle;
-  height: 480px;
+  background-image: url(/image/ghana-image.jpg);
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .ghana-text {
